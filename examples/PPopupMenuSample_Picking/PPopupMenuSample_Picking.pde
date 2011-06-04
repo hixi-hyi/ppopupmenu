@@ -1,3 +1,12 @@
+/**
+  Requirement
+  You need to add Picking.jar.
+  (http://code.google.com/p/processing-picking-library/)  
+*/
+import picking.*;
+
+import com.hixi_hyi.processing.*;
+
 import processing.opengl.*;
 
 Picker picker=null;

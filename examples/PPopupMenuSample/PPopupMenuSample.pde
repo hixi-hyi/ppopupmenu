@@ -1,3 +1,4 @@
+import com.hixi_hyi.processing.PPopupMenu;
 
 PPopupMenu menu=null;
 
@@ -19,7 +20,7 @@ void setup(){
   menu.addMenuItem("menu3", "menu3Func", "menu", 3, "selected");
 }
 
-void mouseClicked(){
+void mousePressed(){
   if(mouseButton==RIGHT){
     //println("Right clicked!");
     menu.show();

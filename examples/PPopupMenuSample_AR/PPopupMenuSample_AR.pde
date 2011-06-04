@@ -7,6 +7,8 @@
   You need to put camera_para.dat and patt.hiro into "data" folder.
   (http://nyatla.jp/nyartoolkit/wiki/index.php?NyAR4psg)
 */
+import processing.click.*;
+import picking.*;
 import processing.video.*;
 import processing.core.*;
 import jp.nyatla.nyar4psg.*;
