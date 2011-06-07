@@ -10,12 +10,12 @@ http://www.hixi-hyi.com/
 ---------------------------------------
 PPopupMenu
 ---------------------------------------
-簡単にPopupMenuを作成し，項目を追加することが出来るProcessingライブラリです．
+You can easily create PopupMenu and add items to menu in Processing code.
 
 ---------------------------------------
 Working Environment
 ---------------------------------------
-Processingが動く以下の環境で開発できます．
+Any environment that Processing works
 -Mac(OSX)
 -Windows
 -Linux
@@ -23,20 +23,22 @@ Processingが動く以下の環境で開発できます．
 ---------------------------------------
 Installation
 ---------------------------------------
-1.ppopupmenuをダウンロードして下さい．
-2.展開したものを <processing-sketches>/libraries/ に置いてください．
+Download the file ppopupmenu and extract it to <processing-sketches>/libraries/.
 Mac[ex]:  /Users/<Username>/Documents/Processing/libraries/ppopupmenu
 
 ---------------------------------------
 How to set up new code
 ---------------------------------------
-1.Processingを起動し，"File -> New" を選択してください．
-2."Sketch -> import Library... -> ppopupmenu"を選択してください．
+1.Launch Processing and create a new code.
+2.Select "Sketch -> import Library... -> ppopupmenu".
+3.Now, you can use "PPopupMenu" in this code.
 
 ---------------------------------------
 Examples
 ---------------------------------------
-"File -> Example..."を選択し，"Contributed Libraries -> ppopupmenu"からサンプルを見ることが出来ます
+1.Select "File -> Example...".
+2.Show "Contributed Libraries -> ppopupmenu".
+3.Now, you can see sample code.
 
 ---------------------------------------
 Thanks
