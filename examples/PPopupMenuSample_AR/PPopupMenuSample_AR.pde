@@ -2,12 +2,12 @@
   Requirement
   You need to add Picking.jar.
   (http://code.google.com/p/processing-picking-library/)
-  
+
   You need to add NyAR4psg.jar and NyARToolkit.jar.
   You need to put camera_para.dat and patt.hiro into "data" folder.
   (http://nyatla.jp/nyartoolkit/wiki/index.php?NyAR4psg)
 */
-import processing.click.*;
+import ppopupmenu.*;
 import picking.*;
 import processing.video.*;
 import processing.core.*;
@@ -29,14 +29,14 @@ PPopupMenu menu=null;
 void setup(){
   size(640, 480, P3D);
   colorMode(RGB, 100);
-  
+
   nya=new MultiMarker(this, width, height, "camera_para.dat", NyAR4PsgConfig.CONFIG_PSG);
   nya.addARMarker("patt.hiro", 80);
-  
+
   cam=new Capture(this, 640, 480);
   picker=new Picker(this);
   menu=new PPopupMenu(this);
-  
+
   menu.addMenuItem("red", "changeBoxColorRed");
   menu.addMenuItem("green", "changeBoxColorGreen");
   menu.addMenuItem("blue", "changeBoxColorBlue");
@@ -48,16 +48,16 @@ void setup(){
 void draw(){
   if(cam.available()!=true)
     return;
-  
+
   cam.read();
   nya.detect(cam);
   hint(DISABLE_DEPTH_TEST);
   image(cam, 0, 0);
   hint(ENABLE_DEPTH_TEST);
-  
+
   if(!nya.isExistMarker(0))
     return;
-  
+
   picker.start(0);
   nya.beginTransform(0);
   fill(r, g, b);
@@ -81,7 +81,7 @@ void mouseClicked(){
   }
 }
 
-  
+
 void changeBoxColorRed(){
   r=255;
   g=0;

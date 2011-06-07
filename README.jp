@@ -1,0 +1,45 @@
+==========================================
+PPopupMenu
+version 1.0.0
+==========================================
+
+Copyright (C) 2011 Hiroyoshi Houchi, Shigeo Yoshida
+
+http://www.hixi-hyi.com/
+
+---------------------------------------
+PPopupMenu
+---------------------------------------
+簡単にPopupMenuを作成し，項目を追加することが出来るProcessingライブラリです．
+
+---------------------------------------
+Working Environment
+---------------------------------------
+Processingが動く以下の環境で開発できます．
+-Mac(OSX)
+-Windows
+-Linux
+
+---------------------------------------
+Installation
+---------------------------------------
+1.ppopupmenuをダウンロードして下さい．
+2.展開したものを <processing-sketches>/libraries/ に置いてください．
+Ex:  <processing-sketches>/libraries/ppopupmenu
+
+---------------------------------------
+How to set up new code
+---------------------------------------
+1.Processingを起動し，"File -> New" を選択してください．
+2."Sketch -> import Library... -> ppopupmenu"を選択してください．
+
+---------------------------------------
+Examples
+---------------------------------------
+"File -> Example..."を選択し，"Contributed Libraries -> ppopupmenu"からサンプルを見ることが出来ます
+
+---------------------------------------
+Thanks
+---------------------------------------
+Sunao Hashimoto
+http://kougaku-navi.net/

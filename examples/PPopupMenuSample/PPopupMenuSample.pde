@@ -1,4 +1,4 @@
-import com.hixi_hyi.processing.PPopupMenu;
+import ppopupmenu.*;
 
 PPopupMenu menu=null;
 
@@ -8,15 +8,15 @@ int b=255;
 
 void setup(){
   size(200, 200);
-  
+
   //create popupmenu
   menu=new PPopupMenu(this);
-  
+
   //add menu
   //"menu1Func", "menu2Func" and "menu3Func" are method names you newly need to define in this source code.
   menu.addMenuItem("menu1", "menu1Func");
   menu.addSeparator();
-  menu.addMenuItem("menu2", "menu2Func", "menu2 selected"); 
+  menu.addMenuItem("menu2", "menu2Func", "menu2 selected");
   menu.addMenuItem("menu3", "menu3Func", "menu", 3, "selected");
 }
 
@@ -47,7 +47,7 @@ void menu2Func(String str){
   println(str);
   r=0;
   g=255;
-  b=0;  
+  b=0;
 }
 void menu3Func(String str1, Integer menuId, String str2){
   println(str1+menuId+" "+str2);

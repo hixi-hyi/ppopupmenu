@@ -1,11 +1,11 @@
 /**
   Requirement
   You need to add Picking.jar.
-  (http://code.google.com/p/processing-picking-library/)  
+  (http://code.google.com/p/processing-picking-library/)
 */
 import picking.*;
 
-import com.hixi_hyi.processing.*;
+import ppopupmenu.*;
 
 import processing.opengl.*;
 
@@ -35,7 +35,7 @@ void setup(){
   menu3.addMenuItem("menu31", "menu31Func");
 }
 
-void draw(){  
+void draw(){
   background(0);
   lights();
   stroke(0);
