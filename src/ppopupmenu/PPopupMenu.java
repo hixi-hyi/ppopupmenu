@@ -62,8 +62,8 @@ public class PPopupMenu extends JPopupMenu{
 
 	/**
 	 * Appends the menu item to the end of this menu.
-	 * @param buttonName The string for the menu item
-	 * @param methodName The string for the method
+	 * @param buttonName the string for the menu item
+	 * @param methodName the string for the method
 	 * @param args the argument passed to the method
 	 */
 	public void addMenuItem(final String buttonName, final String methodName, final Object... args) {
