@@ -25,7 +25,7 @@ Installation
 ---------------------------------------
 1.ppopupmenuをダウンロードして下さい．
 2.展開したものを <processing-sketches>/libraries/ に置いてください．
-Ex:  <processing-sketches>/libraries/ppopupmenu
+Mac ex:  /Users/<Username>/Documents/Processing/libraries/ppopupmenu
 
 ---------------------------------------
 How to set up new code
