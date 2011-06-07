@@ -24,6 +24,7 @@ Any environment that Processing works
 Installation
 ---------------------------------------
 Download the file ppopupmenu and extract it to <processing-sketches>/libraries/.
+Renamed hixi-hyi-ppopupmenu-*** to ppopupmenu.
 Mac[ex]:  /Users/<Username>/Documents/Processing/libraries/ppopupmenu
 
 ---------------------------------------

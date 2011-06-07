@@ -25,6 +25,7 @@ Installation
 ---------------------------------------
 1.ppopupmenuをダウンロードして下さい．
 2.展開したものを <processing-sketches>/libraries/ に置いてください．
+3.ディレクトリ名をhixi-hyi-ppopupmenu-***からppopupmenuに変更してください．
 Mac[ex]:  /Users/<Username>/Documents/Processing/libraries/ppopupmenu
 
 ---------------------------------------
