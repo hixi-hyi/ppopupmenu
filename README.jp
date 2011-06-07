@@ -10,12 +10,12 @@ http://www.hixi-hyi.com/
 ---------------------------------------
 PPopupMenu
 ---------------------------------------
-ŠÈ’P‚ÉPopupMenu‚ðì¬‚µC€–Ú‚ð’Ç‰Á‚·‚é‚±‚Æ‚ªo—ˆ‚éProcessingƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·D
+ç°¡å˜ã«PopupMenuã‚’ä½œæˆã—ï¼Œé …ç›®ã‚’è¿½åŠ ã™ã‚‹ã“ã¨ãŒå‡ºæ¥ã‚‹Processingãƒ©ã‚¤ãƒ–ãƒ©ãƒªã§ã™ï¼Ž
 
 ---------------------------------------
 Working Environment
 ---------------------------------------
-Processing‚ª“®‚­ˆÈ‰º‚ÌŠÂ‹«‚ÅŠJ”­‚Å‚«‚Ü‚·D
+ProcessingãŒå‹•ãä»¥ä¸‹ã®ç’°å¢ƒã§é–‹ç™ºã§ãã¾ã™ï¼Ž
 -Mac(OSX)
 -Windows
 -Linux
@@ -23,20 +23,20 @@ Processing‚ª“®‚­ˆÈ‰º‚ÌŠÂ‹«‚ÅŠJ”­‚Å‚«‚Ü‚·D
 ---------------------------------------
 Installation
 ---------------------------------------
-1.ppopupmenu‚ðƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä‰º‚³‚¢D
-2.“WŠJ‚µ‚½‚à‚Ì‚ð <processing-sketches>/libraries/ ‚É’u‚¢‚Ä‚­‚¾‚³‚¢D
+1.ppopupmenuã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ä¸‹ã•ã„ï¼Ž
+2.å±•é–‹ã—ãŸã‚‚ã®ã‚’ <processing-sketches>/libraries/ ã«ç½®ã„ã¦ãã ã•ã„ï¼Ž
 Mac[ex]:  /Users/<Username>/Documents/Processing/libraries/ppopupmenu
 
 ---------------------------------------
 How to set up new code
 ---------------------------------------
-1.Processing‚ð‹N“®‚µC"File -> New" ‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢D
-2."Sketch -> import Library... -> ppopupmenu"‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢D
+1.Processingã‚’èµ·å‹•ã—ï¼Œ"File -> New" ã‚’é¸æŠžã—ã¦ãã ã•ã„ï¼Ž
+2."Sketch -> import Library... -> ppopupmenu"ã‚’é¸æŠžã—ã¦ãã ã•ã„ï¼Ž
 
 ---------------------------------------
 Examples
 ---------------------------------------
-"File -> Example..."‚ð‘I‘ð‚µC"Contributed Libraries -> ppopupmenu"‚©‚çƒTƒ“ƒvƒ‹‚ðŒ©‚é‚±‚Æ‚ªo—ˆ‚Ü‚·
+"File -> Example..."ã‚’é¸æŠžã—ï¼Œ"Contributed Libraries -> ppopupmenu"ã‹ã‚‰ã‚µãƒ³ãƒ—ãƒ«ã‚’è¦‹ã‚‹ã“ã¨ãŒå‡ºæ¥ã¾ã™
 
 ---------------------------------------
 Thanks
