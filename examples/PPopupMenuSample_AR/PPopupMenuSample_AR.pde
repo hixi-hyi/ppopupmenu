@@ -7,10 +7,18 @@
   You need to put camera_para.dat and patt.hiro into "data" folder.
   (http://nyatla.jp/nyartoolkit/wiki/index.php?NyAR4psg)
 */
+/**
+  Requirement
+  You need to add Picking.jar.
+  (http://code.google.com/p/processing-picking-library/)
+
+  You need to add NyAR4psg.jar and NyARToolkit.jar.
+  You need to put camera_para.dat and patt.hiro into "data" folder.
+  (http://nyatla.jp/nyartoolkit/wiki/index.php?NyAR4psg)
+*/
 import ppopupmenu.*;
 import picking.*;
 import processing.video.*;
-import processing.core.*;
 import jp.nyatla.nyar4psg.*;
 import processing.opengl.*;
 import picking.*;
@@ -64,13 +72,18 @@ void draw(){
   translate(0, 0, 20);
   box(40);
   nya.endTransform();
+
+  picker.stop();
 }
 
 void mouseClicked(){
   if(mouseButton==RIGHT){
     int id=picker.get(mouseX, mouseY);
+    println("id:"+id);
     switch(id){
       case 0:
+        if(!nya.isExistMarker(0))
+          return;
         menu.show();
         break;
     }
